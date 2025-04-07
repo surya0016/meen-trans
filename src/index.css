@@ -4,13 +4,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 /* inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* space grotesk */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*work sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 @theme{
   --color-yellow-1: #ddc646;
   --color-yellow-2: #e0a458;
   --color-yellow-3: #dfa426;
   --color-emrald-1: #204f55;
-  --color-blue-1: #2a5a8b;
+  --color-blue-1: #0e33cb;
+  --color-blue-2: #121d50;
+  --color-blue-3: #2a5a8b;
+  --color-blue-4: #035e89;
+  --color-blue-5: #f2faff;
   --color-grey-1: #edf0f3;
   --color-grey-2: #5c6c7b;
   --color-grey-3: #838383;
@@ -18,4 +30,8 @@
 
   --font-nutino: 'Nunito', sans-serif;
   --font-inter: 'Inter', sans-serif;
+  --font-sg: 'Space Grotesk', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-work-sans: 'Work Sans', sans-serif;
+  --font-dm-sans: 'DM Sans', sans-serif;
 }
