@@ -20,7 +20,7 @@ const Services = () => {
   return (
     <div className='bg-grey-1 flex justify-center items-center flex-col h-[1038px]'>
       <div className='text-blue-1 text-[14px] font-medium uppercase font-sg leading-[9%] mb-6'>OUR SERVICES</div>
-      <div className='text-blue-2 font-bold font-sg text-[48px] leading-[130%] uppercase flex flex-col justify-center items-center mb-10'>
+      <div className='text-blue-2 font-bold font-sg text-[42px] leading-[130%] uppercase flex flex-col justify-center items-center mb-10'>
         <span className="">Efficient and Reliable Shipping</span><span className="">with MEENSTRans</span> 
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

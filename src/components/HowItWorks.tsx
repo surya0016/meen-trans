@@ -11,7 +11,7 @@ const HowItWorks = () => {
         </div>
         <div className="">
           <div className="uppercase font-sg text-blue-1 text-[12px] mb-4">How it works</div>
-          <div className="font-sg font-bold text-[42px] flex flex-col leading-[130%] uppercase text-blue-2 mb-4">
+          <div className="font-sg font-bold text-[40px] flex flex-col leading-[130%] uppercase text-blue-2 mb-4">
             <span>Simplify your Shipping</span>
             <span>experience with our</span>
             <span>easy step process</span>
