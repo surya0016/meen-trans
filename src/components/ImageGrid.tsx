@@ -7,16 +7,16 @@ import img6 from '../assets/images/img8.png'
 
 const ImageGrid = () => {
   return (
-    <div className='my-24'>
-      <div className="grid grid-cols-2 w-[1150px]">
-        <div className='m-3'><img className='rounded-3xl' src={img1} alt="img1" /></div>
-        <div className='m-3'><img className='rounded-3xl' src={img2} alt="img2" /></div>
+    <div className='md:my-24 my-12' id='testimonials'>
+      <div className="grid md:grid-cols-2 w-full grid-cols-1 ">
+        <div className='m-3'><img className='md:rounded-3xl rounded' src={img1} alt="img1" /></div>
+        <div className='m-3'><img className='md:rounded-3xl rounded' src={img2} alt="img2" /></div>
       </div>
-      <div className="grid grid-cols-4">
-        <div  className='m-3'><img className="rounded-3xl" src={img3} alt="img3" /></div>
-        <div  className='m-3'><img className="rounded-3xl" src={img4} alt="img3" /></div>
-        <div  className='m-3'><img className="rounded-3xl" src={img5} alt="img3" /></div>
-        <div  className='m-3'><img className="rounded-3xl" src={img6} alt="img4" /></div>
+      <div className="grid md:grid-cols-4 grid-cols-2 w-full">
+        <div  className='m-3'><img className="md:rounded-3xl rounded" src={img3} alt="img3" /></div>
+        <div  className='m-3'><img className="md:rounded-3xl rounded" src={img4} alt="img3" /></div>
+        <div  className='m-3'><img className="md:rounded-3xl rounded" src={img5} alt="img3" /></div>
+        <div  className='m-3'><img className="md:rounded-3xl rounded" src={img6} alt="img4" /></div>
       </div>
     </div>
   )

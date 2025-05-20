@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div>
+    <div className='grid grid-cols-1 scroll-smooth'>
       <Hero/>
       <Services/>
       <HowItWorks/>
