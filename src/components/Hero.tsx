@@ -54,7 +54,7 @@ const Hero = () => {
       <span className="mt-2 sm:mt-0 hidden sm:block">
         <button
           onClick={() => navigate("/contact-us")}
-          className="px-5 py-2 sm:px-7 mr-0 sm:mr-[50px] bg-yellow-3 border-0 text-white font-inter cursor-pointer w-full sm:w-auto"
+          className="px-5 py-2 sm:px-7 mr-0 sm:mr-[50px] bg-linear-to-l from-orange-2 to-orange-1 border-0 text-white rounded-sm font-inter cursor-pointer w-full sm:w-auto"
         >
           Contact Us
         </button>
@@ -129,7 +129,7 @@ const Hero = () => {
                 setIsOpen(false);
                 navigate("/contact-us");
               }}
-              className="w-full mt-4 px-5 py-2 bg-yellow-3 border-0 text-white font-inter cursor-pointer"
+              className="w-full mt-4 px-5 py-2 border-0 text-white font-inter cursor-pointer"
             >
               Contact Us
             </button>
@@ -139,11 +139,11 @@ const Hero = () => {
     </nav>
     <main className="font-inter flex justify-center items-start flex-col text-white text-start h-auto sm:h-135 mx-4 sm:mx-[120px] mt-8 sm:mt-0">
       <div className="text-[14px] sm:text-[16px] font-normal text-yellow-2 mb-5">
-        FAST & RELIABLE SHIPPING
+        Driven by Precision, Delivered with Purpose
       </div>
       <div className="font-bold text-2xl sm:text-5xl flex flex-col mb-4">
-        <span className="mb-1 sm:mb-2">We Get Your Packages</span>
-        <span>Delivered On Time!</span>
+        <span className="mb-1 sm:mb-2">Delivering More Than</span>
+        <span>Just Cargo. Trust</span>
       </div>
       <div className="text-[14px] sm:text-[16px] leading-[22px] sm:leading-[27px] text-grey-4 mb-6">
         When speed and efficiency matter, our experts ensure your products reach
@@ -152,7 +152,7 @@ const Hero = () => {
       </div>
       <div>
         <a href="#about">
-          <button className="px-6 py-3 sm:px-[33px] sm:py-[12px] bg-yellow-3 text-white cursor-pointer w-full sm:w-auto">
+          <button className="px-6 py-3 sm:px-[33px] sm:py-[12px] rounded-sm bg-linear-to-l from-orange-2 to-orange-1 text-white cursor-pointer w-full sm:w-auto">
             Explore our Services
           </button>
         </a>
