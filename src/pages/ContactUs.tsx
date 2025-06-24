@@ -2,7 +2,7 @@ import { ChevronRight } from 'lucide-react'
 
 const ContactUs = () => {
   return (
-    <div className='rounded-xl shadow-lg w-full'>
+    <div className='rounded-xl   shadow-lg w-full'>
       <div className="mx-2 sm:mx-8 md:mx-24 lg:mx-24 lg:my-18 my-4 sm:my-12 md:my-[60px] py-18">
         <div className="flex flex-col justify-center items-center ">
           <h2 className="text-xl sm:text-2xl uppercase font-bold mb-4 sm:mb-6 font-dm-sans pb-2 border-b-4 border-b-orange-2/30">
@@ -18,7 +18,7 @@ const ContactUs = () => {
                   htmlFor="name"
                   className="block text-sm sm:text-base mb-1"
                 >
-                  First Name
+                  Full Name
                 </label>
                 </div>
               <input
@@ -26,7 +26,7 @@ const ContactUs = () => {
                 id="name"
                 name="name"
                 className="w-full px-4 sm:px-6 py-2.5 border border-gray-300 rounded-md outline-none transition"
-                placeholder="First name"
+                placeholder="Full name"
                 required
               />
             </div>
@@ -45,7 +45,7 @@ const ContactUs = () => {
                   id="email"
                   name="email"
                   className="w-full px-4 sm:px-6 py-2.5 border border-gray-300 rounded-md outline-none transition"
-                  placeholder="Last name"
+                  placeholder="Email address"
                   required
                 />
               </div>
@@ -63,7 +63,7 @@ const ContactUs = () => {
                   id="subject"
                   name="subject"
                   className="w-full px-4 sm:px-6 py-2.5 border border-gray-300 rounded-md outline-none transition"
-                  placeholder="Email"
+                  placeholder="Phone number"
                   required
                 />
               </div>
@@ -76,14 +76,18 @@ const ContactUs = () => {
                     Freight Type
                   </label>
                 </div>
-                <input
-                  type="text"
-                  id="phone"
-                  name="phone"
+                <select
+                  id="freightType"
+                  name="freightType"
                   className="w-full px-4 sm:px-6 py-2.5 border border-gray-300 rounded-md outline-none transition"
-                  placeholder="Phone number"
                   required
-                />
+                >
+                  <option value="">Select Freight Type</option>
+                  <option value="air">Air Freight</option>
+                  <option value="sea">Sea Freight</option>
+                  <option value="road">Road Freight</option>
+                  <option value="rail">Rail Freight</option>
+                </select>
               </div>
               <div>
                 <div className="">
@@ -95,7 +99,7 @@ const ContactUs = () => {
                   </label>
                 </div>
                 <input
-                  type="text"
+                  type="date-time-local"
                   id="phone"
                   name="phone"
                   className="w-full px-4 sm:px-6 py-2.5 border border-gray-300 rounded-md outline-none transition"
@@ -117,7 +121,7 @@ const ContactUs = () => {
                   id="phone"
                   name="phone"
                   className="w-full px-4 sm:px-6 py-2.5 border border-gray-300 rounded-md outline-none transition"
-                  placeholder="Phone number"
+                  placeholder="Location"
                   required
                 />
               </div>
@@ -135,7 +139,7 @@ const ContactUs = () => {
                   id="phone"
                   name="phone"
                   className="w-full px-4 sm:px-6 py-2.5 border border-gray-300 rounded-md outline-none transition"
-                  placeholder="Phone number"
+                  placeholder="Location"
                   required
                 />
               </div>
